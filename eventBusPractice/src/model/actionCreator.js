@@ -8,7 +8,7 @@ const ACTION_TYPES = Object.freeze({
   FILTER_CHANGED: 'FILTER_CHANGED',
 });
 
-// plaload는 값이 하나여도 객체의 프로퍼티로 내보내기로 일관성 유지
+// payload는 값이 하나여도 객체의 프로퍼티로 내보내기로 일관성 유지
 const actions = {
   addItem(text) {
     return {
